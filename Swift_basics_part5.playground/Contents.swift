@@ -98,3 +98,24 @@ for (index, value) in shoppingList.enumerated(){
     print("Item \(index + 1): \(value)")
 }
 
+//Sets
+
+//A set stores distinct values of the same type in a collection with no defined ordering.
+
+//you can use a set instead of an array when the order of item is not important, or when you need to ensure that an item only appears once.
+
+// set<Element>
+
+// Creating and Initialzing an Empty Set
+
+var letters = Set<Character>()
+print("letters is of type Set<Character> with \(letters.count) items")
+
+letters.insert("b")
+
+letters = []
+
+//Creating a Set with an Array Literal.
+
+var favorite: Set<String> = ["Rock", "Classical", "HipHop"]
+
